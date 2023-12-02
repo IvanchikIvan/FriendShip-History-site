@@ -41,11 +41,11 @@
 .beauty::after {
     content: "";
     position: absolute;
-    top:0;
+    top:-10%;
     left: 10%;
     width: 80%;
-    height: 140%;
-    transform: rotate(30deg);
+    height: 120%;
+    transform: rotate(20deg);
     border: black solid 1.5px;
     border-radius: 50%;
 }
@@ -53,11 +53,13 @@
 .beauty::before {
     content: "";
     position: absolute;
-    top:0;
+    top:-10%;
     left: 10%;
     width: 80%;
     height: 140%;
-    transform: rotate(60deg);
+    transform: rotate(40deg);
     border: black solid 1.5px;
     border-radius: 50%;
 }
+
+

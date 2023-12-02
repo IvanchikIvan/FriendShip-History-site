@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
+
+.for-the-heart-block {
+  width: 100%;
+  background-color: #b8b08d;
+}
+
+.for-the-heart-container {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.for-the-heart__content {
+  flex: 1;
+}
+
+.for-the-heart__title {
+  font-family: "Dela Gothic One";
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.for-the-heart__text {
+  font-size: 20px;
+  font-family: "Roboto Slab";
+}
+
+.for-the-heart__icon {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  filter: grayscale();
+}
+
+.for-the-heart__icon img {
+  width: 10%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.for-the-heart__icon::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: -10%;
+  width: 10%;
+  height: 70%;
+  transform: rotate(110deg);
+  border: black solid 1.5px;
+  border-radius: 50%;
+}
+
+.for-the-heart__icon::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: -10%;
+  width: 10%;
+  height: 70%;
+  transform: rotate(70deg);
+  border: black solid 1.5px;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .for-the-heart-container {
+    flex-direction: column;
+  }
+}
