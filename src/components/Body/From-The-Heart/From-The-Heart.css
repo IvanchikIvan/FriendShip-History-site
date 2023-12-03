@@ -7,7 +7,7 @@
 }
 
 .for-the-heart-container {
-  padding: 20px 100px;
+  padding: 20px clamp(20px, 4rem, 100px);
   display: flex;
   flex-direction: row;
 }
@@ -18,7 +18,7 @@
 
 .for-the-heart__title {
   font-family: "Dela Gothic One";
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .for-the-heart__icon img {
-  width: 10%;
+  width: 30%;
   border-radius: 50%;
   z-index: 2;
 }
@@ -66,8 +66,13 @@
   border-radius: 50%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .for-the-heart-container {
     flex-direction: column;
+  }
+  .for-the-heart__icon img {
+    width: 50%;
+    border-radius: 50%;
+    z-index: 2;
   }
 }
