@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
+
+.compliments {
+  width: 100%;
+  background-color: #202C39;
+}
+
+.compliments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.compliments__text-container {
+  flex: 1;
+  max-width: 70%;
+}
+
+.compliments__title {
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #B8B08D;
+  font-family: "Dela Gothic One";
+}
+
+.compliments__list {
+  list-style: none;
+  padding: 0;
+}
+
+.compliments__item {
+    font-size: 25px;
+    color: #F2D492;
+    margin-bottom: 40px;
+    font-family: "Roboto Slab";
+}
+
+.compliments__image {
+  /* Ваши стили для изображения */
+}
