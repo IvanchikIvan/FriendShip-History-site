@@ -1,77 +1,86 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
 
-.for-the-heart-block {
+.from-the-heart-block {
   width: 100%;
   background-color: #b8b08d;
 }
 
-.for-the-heart-container {
-  padding: 20px clamp(20px, 4rem, 100px);
+.from-the-heart-container {
   display: flex;
+  padding: 5rem 3rem;
   flex-direction: row;
 }
 
-.for-the-heart__content {
+.from-the-heart__content {
   flex: 1;
 }
 
-.for-the-heart__title {
+.from-the-heart__title {
   font-family: "Dela Gothic One";
   font-size: 3rem;
   font-weight: 700;
 }
 
-.for-the-heart__text {
-  font-size: 20px;
+.from-the-heart__text {
+  font-size: clamp(20px, 1.8rem, 30px);
+  line-height: 1.5;
   font-family: "Roboto Slab";
 }
 
-.for-the-heart__icon {
+.from-the-heart__icon {
   display: flex;
   flex: 1;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   position: relative;
   filter: grayscale();
 }
 
-.for-the-heart__icon img {
-  width: 30%;
+.from-the-heart__icon-container {
+  width: 130px;
+  height: 130px;
+}
+
+.from-the-heart__icon img {
+  width: 100%;
   border-radius: 50%;
   z-index: 2;
 }
 
-.for-the-heart__icon::after {
+.from-the-heart__icon::after {
   content: "";
   position: absolute;
-  top: 40%;
-  left: -10%;
-  width: 10%;
-  height: 70%;
-  transform: rotate(110deg);
-  border: black solid 1.5px;
+  display: inline-block;
+  top: 20%;
+  left: -20%;
+  width: 20%;
+  height: 90%;
+  transform: rotate(120deg);
+  border: black solid 1px;
   border-radius: 50%;
 }
 
-.for-the-heart__icon::before {
+.from-the-heart__icon::before {
   content: "";
   position: absolute;
+  display: inline-block;
   top: 40%;
   left: -10%;
   width: 10%;
   height: 70%;
   transform: rotate(70deg);
-  border: black solid 1.5px;
+  border: black solid 1px;
   border-radius: 50%;
 }
 
-@media (max-width: 700px) {
-  .for-the-heart-container {
+@media (max-width: 810px) {
+  .from-the-heart-container {
     flex-direction: column;
+    padding: 60px 20px;
   }
-  .for-the-heart__icon img {
-    width: 50%;
+  .from-the-heart__icon img {
+    width: 100%;
     border-radius: 50%;
     z-index: 2;
   }
