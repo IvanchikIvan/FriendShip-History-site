@@ -1,6 +1,6 @@
 import React from "react";
 import "./Compliments.css";
-import img from "./artwork.png";
+import ivan_icon from "../../Assets/ivan_icon.jpg";
 
 const Compliments = () => {
   const complimentsList = [
@@ -13,14 +13,20 @@ const Compliments = () => {
     <div className="compliments">
       <div className="compliments-container">
         <div className="compliments__text-container">
-          <h2 className="compliments__title">A Candy-Box of Compliments</h2>
-          <ul className="compliments__list">
-            {complimentsList.map((compliment, index) => (
-              <li key={index} className="compliments__item">
-                {compliment}
-              </li>
-            ))}
-          </ul>
+          <div className="compliments__title-container">
+            <p className="compliments__title">A Candy-Box of Compliments</p>
+          </div>
+          <div className="compliments__content">
+            <ul className="compliments__list">
+              <div className="compliments__list-items">
+                {complimentsList.map((compliment, index) => (
+                  <li key={index} className="compliments__item">
+                    <p>{compliment}</p>
+                  </li>
+                ))}
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

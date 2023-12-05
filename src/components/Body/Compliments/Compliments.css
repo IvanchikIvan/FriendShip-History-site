@@ -3,40 +3,49 @@
 
 .compliments {
   width: 100%;
-  background-color: #202C39;
+  background: url("../../Assets/compliments_bg.png");
+  background-position: right;
+  background: no-repeat;
 }
 
 .compliments-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5rem;
+  padding: calc(10px + 50 * (100vw / 1080));
 }
 
 .compliments__text-container {
-  flex: 1;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .compliments__title {
-  font-size: 50px;
-  letter-spacing: 5px;
-  color: #B8B08D;
+  font-size: calc(20px + 30 * (100vw / 1080));
   font-family: "Dela Gothic One";
+}
+
+.compliments__content {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .compliments__list {
   list-style: none;
+  max-width: 70%;
   padding: 0;
 }
 
 .compliments__item {
-    font-size: 25px;
-    color: #F2D492;
-    margin-bottom: 40px;
-    font-family: "Roboto Slab";
+  font-size: clamp(24px, 1rem, 30px);
+  margin-bottom: 40px;
+  font-family: "Roboto Slab";
 }
 
-.compliments__image {
-  /* Ваши стили для изображения */
+@media (max-width: 1000px) {
+  .compliments__list {
+    max-width: 100%;
+  }
 }
