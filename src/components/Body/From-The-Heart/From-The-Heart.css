@@ -3,12 +3,12 @@
 
 .from-the-heart-block {
   width: 100%;
-  background-color: #b8b08d;
+  background-color: #5C967A;
 }
 
 .from-the-heart-container {
   display: flex;
-  padding: 6rem 3rem;
+  padding: calc(40px + 50 * (100vw / 1080));
   flex-direction: row;
 }
 

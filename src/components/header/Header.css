@@ -68,6 +68,6 @@
 
 @media (max-width: 810px) {
   .header {
-    height: max-contentg;
+    height: max-content;
   }
 }
