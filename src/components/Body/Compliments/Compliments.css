@@ -5,7 +5,7 @@
   width: 100%;
   background: url("../../Assets/compliments_bg.png");
   background-position: right;
-  background: no-repeat;
+  color: #9E0059;
 }
 
 .compliments-container {

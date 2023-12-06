@@ -3,7 +3,9 @@
 
 .header {
   padding: 20px 50px;
-  max-height: 100vh;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .navbar {
@@ -47,7 +49,7 @@
     width: 80%;
     height: 120%;
     transform: rotate(20deg);
-    border: black solid 1.5px;
+    border: whitesmoke solid 1.5px;
     border-radius: 50%;
 }
 
@@ -59,8 +61,13 @@
     width: 80%;
     height: 140%;
     transform: rotate(40deg);
-    border: black solid 1.5px;
+    border: whitesmoke solid 1.5px;
     border-radius: 50%;
 }
 
 
+@media (max-width: 810px) {
+  .header {
+    height: max-contentg;
+  }
+}
