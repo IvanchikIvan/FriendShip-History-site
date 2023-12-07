@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.surprise-block {
+    width: 100%;
+    height: max-content;
+    background: url('../../Assets/surprise_bg.png');
+    background-size: 100%;
+    background-position: top;
+}
+.surprise-container {
+    padding: calc(10px + 50 * (100vw / 1080));;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.surprise-container__title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Dela Gothic One";
+}
+.surprise-container__text {
+    font-size: 20px;
+    font-family: "Roboto Slab";
+}
+.surprise-container__buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.surprise-container__unbox-happiness {
+    border-radius: 12px;
+    font-family: "Roboto Slab";
+    font-size: calc(14px + 5 * (100vw / 1080));
+    color: whitesmoke;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    padding: calc(20px + 5 * (100vw / 1080)) 18px;
+    background-color: #800F2F;
+    text-align: center;
+}
+.surprise-container__deliver-delight {
+    border-radius: 12px;
+    font-family: "Roboto Slab";
+    font-size: calc(14px + 5 * (100vw / 1080));
+    color: whitesmoke;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    padding: calc(20px + 5 * (100vw / 1080)) 18px;
+    background-color: #FF758F;
+    text-align: center;
+}

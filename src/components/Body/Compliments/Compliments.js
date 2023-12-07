@@ -1,6 +1,5 @@
 import React from "react";
 import "./Compliments.css";
-import ivan_icon from "../../Assets/ivan_icon.jpg";
 
 const Compliments = () => {
   const complimentsList = [
