@@ -3,9 +3,9 @@ import "./Compliments.css";
 
 const Compliments = () => {
   const complimentsList = [
-    "Your laughter rings sweeter than a symphony of bells, warming hearts and lifting spirits",
-    "Your eyes, they shine brighter than the northern lights, painting the world in hues of enchantment",
-    "Your soul, a beautiful meadow of wildflowers, blossoms with the exquisite fragrance of kindness",
+    "Каждый раз, засыпая, я не могу удержаться, чтобы представить тебя со мной рядом",
+    "Твоё горячее дыхание, каждый раз встречает меня в душе",
+    "Невероятно добрая, искренняя",
   ];
 
   return (

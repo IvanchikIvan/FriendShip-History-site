@@ -9,7 +9,7 @@ const Surprise = () => {
           <p>Surprise Now</p>
         </div>
         <div className="surprise-container__text">
-          <p>A treasure chest filled with compliments and wishes. Spark joy in her heart—today and every day.</p>
+          <p>Сундук с сокровищами, наполненный комплиментами и пожеланиями. Зажгу радость в твоём сердце - сегодня и каждый день.</p>
         </div>
         <div className="surprise-container__buttons-container">
           <div className="surprise-container__unbox-happiness"><p>Unbox happiness</p></div>
