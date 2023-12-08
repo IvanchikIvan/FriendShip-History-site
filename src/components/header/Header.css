@@ -52,6 +52,7 @@
     transform: rotate(20deg);
     border: whitesmoke solid 1.5px;
     border-radius: 50%;
+    transition: all 0.4s;
 }
 
 .beauty::before {
@@ -64,6 +65,15 @@
     transform: rotate(40deg);
     border: whitesmoke solid 1.5px;
     border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.beauty:hover:after {
+  transform: rotate(-40deg);
+}
+
+.beauty:hover::before {
+  transform: rotate(-75deg);
 }
 
 
