@@ -8,12 +8,15 @@
 
 .from-the-heart-container {
   display: flex;
-  padding: calc(40px + 50 * (100vw / 1080));
+  padding: calc(40px + 60 * (100vw / 1080));
   flex-direction: row;
 }
 
 .from-the-heart__content {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  gap:20px
 }
 
 .from-the-heart__title {
