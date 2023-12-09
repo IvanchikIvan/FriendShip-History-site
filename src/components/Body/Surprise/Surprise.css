@@ -10,7 +10,7 @@
 .surprise-block {
     width: 100%;
     height: max-content;
-    background: url('../../Assets/surprise_bg.png');
+    background-color: #e7e7e7;
     background-size: 100%;
     background-position: top;
 }
