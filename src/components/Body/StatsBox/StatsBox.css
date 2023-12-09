@@ -1,27 +1,41 @@
-.stats-block {
-  /* Допустим, что вы хотите, чтобы StatsBox занимал 100% ширины */
+.stats-box {
   width: 100%;
+  padding: calc(10px + 50 * (100vw / 1080));
 }
 
-.stats-container {
+.stats-box__container {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
-.stats-row:first-child {
+.stats-box__row {
+    width: max-content;
+}
+
+.stats-box__row:first-child {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
 }
 
-.stats-row:last-child {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
+.stats-box__row:last-child {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
 }
 
-.stats-row__item{
-    height: 200px;
-    background-color: black;
+.stats-box__item {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F06D6B;
+  border-radius: 10px;
+}
+
+.stats-box__row:first-child .stats-box__item:last-child, .stats-box__row:last-child .stats-box__item:first-child{
+    aspect-ratio: 1;
 }
