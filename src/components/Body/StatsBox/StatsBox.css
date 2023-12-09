@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
+
 .stats-box {
   width: 100%;
   padding: calc(10px + 50 * (100vw / 1080));
+  background-color: whitesmoke;
 }
 
 .stats-box__container {
@@ -27,15 +31,35 @@
 }
 
 .stats-box__item {
-  height: 300px;
+  height: calc(70px + 180 * (100vw / 1080));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #F06D6B;
+  background-color: #F2F2F2;
   border-radius: 10px;
+  color: #8F2D56;
 }
 
 .stats-box__row:first-child .stats-box__item:last-child, .stats-box__row:last-child .stats-box__item:first-child{
     aspect-ratio: 1;
+}
+
+.stats-box__row:first-child .stats-box__item:last-child img,
+.stats-box__row:last-child .stats-box__item:first-child img {
+    width: 100%;
+    max-width: 50%;
+    height: auto; 
+    display: block; 
+    aspect-ratio: 1;
+}
+
+.stats-box__item-title {
+    font-family: "Dela Gothic One";
+    font-size: calc(30px + 50 * (100vw / 1080));
+}
+
+.stats-box__item-content {
+    font-family: "Roboto Slab";
+    font-size: calc(5px + 10 * (100vw / 1080));
 }

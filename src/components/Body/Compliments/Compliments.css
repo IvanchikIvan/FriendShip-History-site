@@ -3,7 +3,7 @@
 
 .compliments {
   width: 100%;
-  background: url("../../Assets/compliments_bg.png");
+  background:g
   background-position: right;
 }
 
@@ -22,13 +22,13 @@
 }
 
 .compliments__title {
-  color: #9E0059;
+  color: #D81159;
   font-size: calc(20px + 30 * (100vw / 1080));
   font-family: "Dela Gothic One";
 }
 
 .compliments__content {
-  color: #c0b0b9;
+  color: #8F2D56;
   display: flex;
   width: 100%;
   flex-direction: row;
