@@ -1,0 +1,27 @@
+.stats-block {
+  /* Допустим, что вы хотите, чтобы StatsBox занимал 100% ширины */
+  width: 100%;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stats-row:first-child {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.stats-row:last-child {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.stats-row__item{
+    height: 200px;
+    background-color: black;
+}
