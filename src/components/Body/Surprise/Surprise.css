@@ -10,9 +10,9 @@
 .surprise-block {
     width: 100%;
     height: max-content;
-    background-color: #e7e7e7;
+    background: url('../../Assets/surprise_bg.png');
     background-size: 100%;
-    background-position: top;
+    background-position: center;
 }
 .surprise-container {
     padding: calc(10px + 80 * (100vw / 1080));
