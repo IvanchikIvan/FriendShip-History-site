@@ -4,8 +4,8 @@
 .header {
   padding: 20px 50px;
   height: 100vh;
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: #000;
 }
 
 .navbar {
@@ -39,6 +39,7 @@
   font-family: "Dela Gothic One", sans-serif;
   font-size: clamp(70px, 12vw, 220px);
   font-weight: 700;
+  color: #06A77D;
   position: relative;
 }
 
@@ -50,7 +51,7 @@
     width: 80%;
     height: 120%;
     transform: rotate(20deg);
-    border: whitesmoke solid 1.5px;
+    border: #010806 solid 1.5px;
     border-radius: 50%;
     transition: all 0.4s;
 }
@@ -63,7 +64,7 @@
     width: 80%;
     height: 140%;
     transform: rotate(40deg);
-    border: whitesmoke solid 1.5px;
+    border: #010806 solid 1.5px;
     border-radius: 50%;
     transition: all 0.4s;
 }
