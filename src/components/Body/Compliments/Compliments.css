@@ -5,6 +5,7 @@
   width: 100%;
   background: url('../../Assets/compliments_bg.png');
   background-position: right;
+  color: #000;
 }
 
 .compliments-container {
@@ -16,19 +17,18 @@
 
 .compliments__text-container {
   max-width: 100%;
-  gap: 25px;
+  gap: 80px;
   display: flex;
   flex-direction: column;
 }
 
 .compliments__title {
-  color: #D81159;
   font-size: calc(20px + 30 * (100vw / 1080));
   font-family: "Dela Gothic One";
+  color:000;
 }
 
 .compliments__content {
-  color: #8F2D56;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -43,7 +43,7 @@
 }
 
 .compliments__item {
-  font-size: clamp(24px, 1rem, 30px);
+  font-size: calc(15px + 5 * (100vw / 1080));
   margin-bottom: 40px;
   font-family: "Roboto Slab";
 }

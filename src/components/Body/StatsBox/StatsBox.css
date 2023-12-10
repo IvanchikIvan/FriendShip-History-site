@@ -4,7 +4,7 @@
 .stats-box {
   width: 100%;
   padding: calc(10px + 50 * (100vw / 1080));
-  background-color: whitesmoke;
+  background-color: #06a77d;
 }
 
 .stats-box__container {
@@ -31,14 +31,15 @@
 }
 
 .stats-box__item {
-  height: calc(70px + 180 * (100vw / 1080));
+  height: calc(40px + 180 * (100vw / 1080));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e7e7e7;
+  background-color: whitesmoke;
+  box-shadow: whitesmoke 0 0 10px 1px;
   border-radius: 10px;
-  color: #8F2D56;
+  color: #d11c77af;
 }
 
 .stats-box__row:first-child .stats-box__item:last-child, .stats-box__row:last-child .stats-box__item:first-child{
@@ -56,10 +57,10 @@
 
 .stats-box__item-title {
     font-family: "Dela Gothic One";
-    font-size: calc(30px + 50 * (100vw / 1080));
+    font-size: calc(20px + 50 * (100vw / 1080));
 }
 
 .stats-box__item-content {
     font-family: "Roboto Slab";
-    font-size: calc(5px + 10 * (100vw / 1080));
+    font-size: calc(7px + 10 * (100vw / 1080));
 }
