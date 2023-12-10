@@ -11,8 +11,8 @@
     width: 100%;
     height: max-content;
     background: url('../../Assets/surprise_bg.png');
-    background-size: 100%;
-    background-position: center;
+    background-position: right;
+    color: whitesmoke;
 }
 .surprise-container {
     padding: calc(10px + 80 * (100vw / 1080));
@@ -22,7 +22,7 @@
     gap: 60px;
 }
 .surprise-container__title {
-    font-size: 60px;
+    font-size: calc(20px + 45 * (100vw / 1080));
     font-weight: 700;
     font-family: "Dela Gothic One";
 }
