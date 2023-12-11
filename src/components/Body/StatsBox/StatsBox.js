@@ -12,10 +12,10 @@ const StatsBox = () => {
             <p className="stats-box__item-title">134</p>
             <p className="stats-box__item-content">Дней с нашего знакомства</p>
           </div>
-          <div className="stats-box__item"><img  src={snake}></img></div>
+          <div className="stats-box__item"><img  src={snake} alt=""></img></div>
         </div>
         <div className="stats-box__row">
-          <div className="stats-box__item"><img src={rabbit}></img></div>
+          <div className="stats-box__item"><img src={rabbit} alt=""></img></div>
           <div className="stats-box__item">
             <p className="stats-box__item-title">1,904</p>
             <p className="stats-box__item-content">Голосовых сообщений</p>

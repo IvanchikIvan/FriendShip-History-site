@@ -26,6 +26,7 @@
   font-size: calc(20px + 30 * (100vw / 1080));
   font-family: "Dela Gothic One";
   color:000;
+  text-shadow: #000 0 0 5px;
 }
 
 .compliments__content {
