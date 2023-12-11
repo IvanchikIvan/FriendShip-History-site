@@ -39,14 +39,14 @@
     border-radius: 12px;
     font-family: "Roboto Slab";
     font-size: calc(14px + 5 * (100vw / 1080));
-    color: whitesmoke;
+    color: #000;
     font-weight: 600;
     display: flex;
     align-items: center;
     height: 40px;
     width: auto;
     padding: calc(20px + 5 * (100vw / 1080)) 18px;
-    background-color: #800F2F;
+    background-color: whitesmoke;
     text-align: center;
 }
 .surprise-container__deliver-delight {
@@ -60,6 +60,6 @@
     height: 40px;
     width: auto;
     padding: calc(20px + 5 * (100vw / 1080)) 18px;
-    background-color: #FF758F;
+    background-color: #005377;
     text-align: center;
 }
