@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/FriendShip-History-site/static/css/main.c5a32d10.css",
+    "main.js": "/FriendShip-History-site/static/js/main.fd3adffc.js",
+    "static/js/787.82c93309.chunk.js": "/FriendShip-History-site/static/js/787.82c93309.chunk.js",
+    "static/media/photo_2023-11-04_23-14-44.jpg": "/FriendShip-History-site/static/media/photo_2023-11-04_23-14-44.abcc7d48e1c32532a110.jpg",
+    "static/media/surprise_bg.png": "/FriendShip-History-site/static/media/surprise_bg.c591972adc12b3ac4c0e.png",
+    "static/media/compliments_bg.png": "/FriendShip-History-site/static/media/compliments_bg.f3e46151de8f7e8f26c0.png",
+    "static/media/from-the-heart_bg.png": "/FriendShip-History-site/static/media/from-the-heart_bg.00b1dd1c9fc073440a7a.png",
+    "static/media/snake.svg": "/FriendShip-History-site/static/media/snake.662cd16ae0af79812fa3d408ce9f5beb.svg",
+    "static/media/rabbit.svg": "/FriendShip-History-site/static/media/rabbit.55454418b6c65d25b4d2c8b9da23968f.svg",
+    "index.html": "/FriendShip-History-site/index.html",
+    "main.c5a32d10.css.map": "/FriendShip-History-site/static/css/main.c5a32d10.css.map",
+    "main.fd3adffc.js.map": "/FriendShip-History-site/static/js/main.fd3adffc.js.map",
+    "787.82c93309.chunk.js.map": "/FriendShip-History-site/static/js/787.82c93309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5a32d10.css",
+    "static/js/main.fd3adffc.js"
+  ]
+}
