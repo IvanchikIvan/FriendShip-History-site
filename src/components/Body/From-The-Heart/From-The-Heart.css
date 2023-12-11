@@ -5,7 +5,7 @@
   width: 100%;
   background: url('../../Assets/from-the-heart_bg.png');
   background-size: cover;
-  background-position: center;
+  background-position: right;
   color: whitesmoke;
 }
 
@@ -13,6 +13,7 @@
   display: flex;
   padding: calc(70px + 80 * (100vw / 1080)) calc(20px + 40 * (100vw / 1080));
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .from-the-heart__content {

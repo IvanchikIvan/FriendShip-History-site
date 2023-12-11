@@ -29,6 +29,7 @@
 }
 
 .compliments__content {
+  color: whitesmoke;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -47,6 +48,8 @@
   margin-bottom: 40px;
   font-family: "Roboto Slab";
 }
+
+
 
 @media (max-width: 1000px) {
   .compliments__list {
