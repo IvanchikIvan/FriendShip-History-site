@@ -13,7 +13,25 @@
   justify-content: space-between;
 }
 
+.for-you-logo__container {
+  width: 60px;
+  height: 60px;
+  filter: grayscale();
+}
+
+.for-you-logo__container img {
+  width: 100%;
+  border-radius: 50%;
+  z-index: 2;
+  aspect-ratio: 1;
+  filter: drop-shadow(#000 0 0 3px);
+}
+
 .for-you {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
   font-size: calc(15px + 5 * (100vw / 1080));
   font-family: "Roboto Slab", sans-serif;
 }
