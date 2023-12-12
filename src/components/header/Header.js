@@ -5,8 +5,8 @@ const Header = () => {
 
   const [beautyStyle] = useSpring(
     () => ({
-      from: { opacity: 0, y:-300 },
-      to: { opacity: 1, y:0 },
+      from: { opacity: 0, y:-300, color: "#000" },
+      to: { opacity: 1, y:0, color: "#06A77D" },
       config: config['molasses'],
     }),
     []
