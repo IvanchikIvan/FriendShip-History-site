@@ -1,6 +1,17 @@
 import './Header.css'
+import { animated, useSpring } from 'react-spring';
 
 const Header = () => {
+
+  const [beautyStyle] = useSpring(
+    () => ({
+      from: { opacity: 0, y:-300 },
+      to: { opacity: 1, y:0 },
+      config: config['molasses'],
+    }),
+    []
+  )
+
   return (
     <header className='header'>
         <div className='navbar'>
@@ -9,7 +20,7 @@ const Header = () => {
         </div>
         <div className='header__body'>
             <div className='header__title'>
-                <p className='beauty'>BEAUTY</p>
+                <animated.p className='beauty' style={beautyStyle}>BEAUTY</animated.p>
                 <p className='for-you'>Для тебя, Настюша</p>
             </div>
         </div>
