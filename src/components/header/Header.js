@@ -1,5 +1,5 @@
 import './Header.css'
-import { animated, useSpring } from 'react-spring';
+import { animated, useSpring, config } from 'react-spring';
 
 const Header = () => {
 
