@@ -5,7 +5,6 @@
   width: 100%;
   background: url('../../Assets/compliments_bg.png');
   background-position: right;
-  color: #000;
 }
 
 .compliments-container {
@@ -25,8 +24,8 @@
 .compliments__title {
   font-size: calc(20px + 30 * (100vw / 1080));
   font-family: "Dela Gothic One";
-  color:000;
-  text-shadow: #000 0 0 5px;
+  color:#d11c77;
+  text-shadow: #d11c77 0 0 5px;
 }
 
 .compliments__content {

@@ -7,7 +7,7 @@ const Surprise = () => {
     () => ({
       from: {
         opacity: 0,
-        x: -100,
+        x: -300,
       },
       to: {
         opacity: 1,
@@ -23,7 +23,7 @@ const Surprise = () => {
     () => ({
       from: {
         opacity: 0,
-        x: 100,
+        x: 300,
       },
       to: {
         opacity: 1,

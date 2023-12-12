@@ -16,7 +16,7 @@ const FromTheHeart = () => {
       },
     }),
     {
-      rootMargin: '-20% 0%',
+      rootMargin: '-10% 0%',
     }
   )
 
