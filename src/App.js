@@ -5,6 +5,7 @@ import Surprise from "./components/Body/Surprise/Surprise";
 import Header from "./components/header/Header";
 import StatsBox from './components/Body/StatsBox/StatsBox';
 import WhyWebsite from './components/Body/why-website/why-website'
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Surprise/>
       <StatsBox/>
       <WhyWebsite/>
+      <Footer/>
     </>
   );
 }
