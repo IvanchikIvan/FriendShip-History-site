@@ -30,7 +30,7 @@ const Header = () => {
           <animated.p className="beauty" style={beautyStyle}>
             BEAUTY
           </animated.p>
-          <p className="for-you">Для тебя, Настюша</p>
+          <p className="for-you__text">Для тебя, Настюша</p>
         </div>
       </div>
     </header>

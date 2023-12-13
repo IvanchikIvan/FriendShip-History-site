@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 50px;
+  padding: 20px calc(15px + 15 * (100vw / 1080));;
   height: 100vh;
   background-color: whitesmoke;
   color: #000;
@@ -8,6 +8,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .for-you-logo__container {
@@ -29,6 +30,11 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  font-size: calc(15px + 5 * (100vw / 1080));
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.for-you__text {
   font-size: calc(15px + 5 * (100vw / 1080));
   font-family: "Roboto Slab", sans-serif;
 }
