@@ -1,5 +1,5 @@
 .footer {
-  padding: calc(15px + 25 * (100vw / 1080));
+  padding: calc(20px + 30 * (100vw / 1080)) 20px;
   background-color: #000;
   color: #fff;
 }
@@ -7,15 +7,15 @@
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  gap: calc(40px + 60 * (100vw / 1080));
+  justify-content: space-between;
 }
 
 .footer-ul__container {
+  flex:1;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: calc(40px + 60 * (100vw / 1080));
+  gap: calc(20px + 30 * (100vw / 1080));
 }
 
 .footer__block {
@@ -29,6 +29,48 @@
 
 .footer__text {
   margin-bottom: 8px;
-  font-size: 15px;
+  font-size: calc(8px + 8 * (100vw / 1080));
   font-family: "Roboto Slab";
+}
+
+
+.ivanchik__container {
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.ivanchik__icon {
+    width: 100px;
+    height: 100px;
+    filter: grayscale();
+}
+
+.ivanchik__icon img{
+  width: 100%;
+  border-radius: 50%;
+  z-index: 2;
+  aspect-ratio: 1;
+  filter: drop-shadow(#000 0 0 3px);
+}
+.ivanchik__text {
+  font-family: "Roboto Slab";
+  font-size: calc(8px + 15 * (100vw / 1080));
+  font-weight: 700;
+}
+
+@media (max-width: 860px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .ivanchik__container{
+    order: -1;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }

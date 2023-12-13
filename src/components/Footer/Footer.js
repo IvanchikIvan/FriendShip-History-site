@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { animated, useSpring, config } from "react-spring";
+import ivanchik_icon from "../Assets/ivan_icon.png";
 
 const Footer = () => {
   return (
@@ -53,6 +54,14 @@ const Footer = () => {
                 <p className="footer__text">Kavalskiy</p>
               </li>
             </ul>
+          </div>
+        </div>
+        <div className="ivanchik__container">
+          <div className="ivanchik__icon">
+            <img src={ivanchik_icon}></img>
+          </div>
+          <div className="ivanchik__text">
+            <p>Made by Ivanchik © 2024</p>
           </div>
         </div>
       </div>
