@@ -1,7 +1,7 @@
 .whywebsite-box {
   width: 100%;
   padding: calc(10px + 50 * (100vw / 1080));
-  background-color: #06a77d;
+  background-color: whitesmoke;
 }
 .whywebsite__container {
   display: flex;
@@ -27,7 +27,6 @@
   font-weight: bolder;
 }
 .whywebsite-block__text {
-  color: whitesmoke;
   font-family: "Roboto Slab";
   font-size: calc(10px + 10 * (100vw / 1080));
 }
