@@ -12,11 +12,11 @@
     color: whitesmoke;
 }
 .surprise-container {
-    padding: calc(10px + 80 * (100vw / 1080));
+    padding: calc(50px + 80 * (100vw / 1080));
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: calc(10px + 50 * (100vw / 1080));
 }
 .surprise-container__title {
     font-size: calc(20px + 45 * (100vw / 1080));
@@ -24,6 +24,8 @@
     font-family: "Dela Gothic One";
 }
 .surprise-container__text {
-    font-size: 20px;
+    font-size: calc(10px + 10 * (100vw / 1080));
     font-family: "Roboto Slab";
+    max-width: 70%;
+    text-align: center;
 }

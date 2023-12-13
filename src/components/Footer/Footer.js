@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { animated, config, useInView } from "react-spring";
+import { animated, useInView } from "react-spring";
 import ivanchik_icon from "../Assets/ivan_icon.png";
 
 const Footer = () => {
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
         <div className="ivanchik__container">
           <div className="ivanchik__icon">
-            <img src={ivanchik_icon}></img>
+            <img src={ivanchik_icon} alt=""></img>
           </div>
           <div className="ivanchik__text">
             <p>Made by Ivanchik © 2024</p>

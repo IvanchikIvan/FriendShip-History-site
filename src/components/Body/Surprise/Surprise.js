@@ -6,12 +6,11 @@ const Surprise = () => {
     <div className="surprise-block">
       <div className="surprise-container">
         <div className="surprise-container__title">
-          <p>Surprise Now</p>
+          <p>Улыбка</p>
         </div>
         <div className="surprise-container__text">
           <p>
-            Сундук с сокровищами, наполненный комплиментами и пожеланиями. Зажгу
-            радость в твоём сердце - сегодня и каждый день.
+            Появляется каждый день, когда ты мне пишешь.<br></br>Утром, днём или вечером, на кровати, в душе или на кухне.<br></br>Мне всегда приятно видеть от тебя новые сообщения
           </p>
         </div>
       </div>
