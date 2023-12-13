@@ -4,6 +4,7 @@ import FromTheHeart from "./components/Body/From-The-Heart/From-The-Heart";
 import Surprise from "./components/Body/Surprise/Surprise";
 import Header from "./components/header/Header";
 import StatsBox from './components/Body/StatsBox/StatsBox';
+import WhyWebsite from './components/Body/why-website/why-website'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Compliments/>
       <Surprise/>
       <StatsBox/>
+      <WhyWebsite/>
     </>
   );
 }
